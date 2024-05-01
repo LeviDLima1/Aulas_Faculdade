@@ -1,0 +1,170 @@
+h1,h2 {
+    text-align: center;
+}
+
+
+.formulario {
+    width: 540px;
+    margin: auto;
+}
+
+.formulario .form {
+    width: 530px;
+    height: 448px;
+    margin: auto;
+    padding: 2px;
+    border: 1px solid;
+}
+
+.formulario .form .FP {
+    width: 508px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid;
+    position: relative;
+    
+    display: flex;
+    padding: 10px;
+}
+
+.formulario .form .SP {
+    width: 508px;
+    height: 200px;
+    margin: auto;
+    margin-top: 3px;
+    border: 1px solid;
+    position: relative;
+    
+    display: flex;
+    padding: 10px;
+}
+
+.formulario .form .TP {
+
+    width: 50%;
+    margin: auto;
+    margin-top: 24px;
+    display: flex;
+}
+
+.formulario .form .FP .center-FP {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.formulario .form .FP .center-FP .DP-div .DP {
+    display: flex;
+    margin: 0;
+    font-weight: bold;
+}
+
+.formulario .form .FP .center-FP .center-label {
+    margin: 0 auto;
+    display: grid;
+}
+
+.formulario .form .FP .center-FP .center-label .nome-aluno,.data-nascimento,.nome-pai,.nome-mae,.Telefone-label,.Email-label {
+    display: flex;
+    justify-content: right;
+}
+
+.formulario .form .FP .center-FP .center-input {
+    align-items: center;
+    width: 62%;
+    height: 85%;
+    margin: auto;
+    margin-top: 24px;
+    display: grid;
+}
+
+.formulario .form .FP .center-FP .center-input .nome-aluno-input,.nome-mae-input,.nome-pai-input,.email-input {
+    width: 220px;
+}
+
+.formulario .form .FP .center-FP .center-input .data-nascimento-div .dia,.mes{
+
+    width: 30px;
+}
+
+.formulario .form .FP .center-FP .center-input .data-nascimento-div .ano{
+    width: 50px;
+}
+
+.formulario .form .FP .center-FP .center-input .TTR-div .Telefone {
+    width: 23px;
+}
+
+.formulario .form .FP .center-FP .center-input .TTR-div .Tel {
+    width: 100px;
+}
+
+.formulario .form .FP .center-FP .center-input .TTR-div .Ramal {
+    width: 50px;
+}
+
+
+
+.formulario .form .SP .center-SP {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.formulario .form .SP .center-SP .tipos-serie {
+    height: 100%;
+}
+
+.formulario .form .SP .center-SP .tipos-serie .div-info-matriculas {
+    width: 100%;
+    height: 20px;
+    display: flex;
+}
+
+.formulario .form .SP .center-SP .tipos-serie .div-info-matriculas .info-matriculas {
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.formulario .form .SP .center-SP .tipos-turno {
+    height: 60px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    display: grid;
+}
+
+.formulario .form .SP .center-SP .tipos-atividade {
+    display: grid;
+    margin-top: 42px;
+    margin-left: 30px;
+}
+
+.formulario .form .SP .center-SP .tipos-serie .div-serie-select {
+    display: grid;
+    margin-top: 33px;
+    width: 100%;
+    height: 50px;
+}
+
+.formulario .form .SP .center-SP .tipos-serie .div-serie-select .select {
+    width: 100px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.formulario .form .SP .center-SP .tipos-serie .div-serie-select .SL-serie {
+    width: 50%;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.formulario .form .TP .center-TP {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}

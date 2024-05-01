@@ -1,0 +1,32 @@
+#principal{
+    margin: auto;
+    border: 1px solid gray;
+    width: 30%;
+}
+h2{
+    margin: 10px 5px 5px 15px;
+    width: 95%;
+}
+label{
+    margin: 10px 5px 5px 15px;
+}
+input,textarea{
+    margin: 10px 5px 5px 15px;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+    padding: 7px;
+    width: 92%;
+}
+button{
+    background-color: rgb(216, 207, 207);
+    border-radius: 15px;    
+    border-style: none;
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    margin: auto;
+
+}
+::placeholder{
+    color: black;
+}

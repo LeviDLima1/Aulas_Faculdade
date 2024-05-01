@@ -1,0 +1,159 @@
+#imagem{
+    width: 320px;
+    display: flex;
+
+    margin: auto;
+}
+#formulario{
+    font-size: large;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 300px;
+
+}
+fieldset{
+    border-radius: 20px;
+    
+    width: 400px;
+    height: 1000px;
+    
+    color: black;
+    
+    box-shadow: 15px 25px 10px plum;
+    margin: auto;
+
+    background-image: linear-gradient(120deg, rgb(116, 116, 255), rgb(177, 0, 177));
+}
+legend{
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+label{
+    display: flex;
+    margin: auto;
+    justify-content: left;
+    position: relative;
+    left: 20px;
+    
+
+    text-indent: 10px;
+}
+#ip1{
+    box-shadow: 0 1px 1px;
+    border: 1px solid plum;
+    border-radius: 20px;
+    bottom: 20px;
+
+    position: relative;
+    display: flex;
+    margin: auto;
+    
+    text-indent: 10px;
+    height: 30px;
+    width: 90%;
+}
+#ip2{
+    position: relative;
+    left: 100;
+}
+#titulos{
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    color: white;
+}
+#ipemail{
+    box-shadow: 0 1px 1px;
+    border: 1px solid plum;
+    border-radius: 20px;
+    bottom: 40px;
+
+    position: relative;
+    display: flex;
+    margin: auto;
+    
+    text-indent: 10px;
+    height: 30px;
+    width: 90%;
+}
+#email{
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    bottom: 20px;
+    color: white;
+}
+#checkbox{
+    position: relative;
+    left: 30px;
+    bottom: 17px;
+
+    margin: auto;
+}
+#codigos{
+    position: relative;
+    left: 40px;
+    bottom: 39px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: auto;
+}
+select{
+    
+    border: 1px solid plum;
+    border-radius: 20px;
+    
+
+    position: relative;
+    display: flex;
+    margin: auto;
+    
+    text-indent: 10px;
+    height: 30px;
+    width: 90%;
+}
+#genero{
+    position: relative;
+    left: 30px;
+    bottom: 17px;
+
+    margin: auto;
+}
+#genero2{
+    position: relative;
+    left: 40px;
+    bottom: 39px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: auto;
+}
+#cidade{
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    color: white;
+}
+button{
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid plum;
+
+    width: 100px;
+    height: 40px;
+
+    line-height: 35px;
+    text-indent: 24px;
+
+    position: relative;
+    display: flex;
+    margin: auto;
+    top: 40px;
+}

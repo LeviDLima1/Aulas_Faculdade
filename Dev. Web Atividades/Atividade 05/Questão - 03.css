@@ -1,0 +1,74 @@
+    fieldset {
+        border: none;
+        background-color: white;
+        border-radius: 13px;
+        margin: auto;
+        position: relative;
+        top: 100px;
+        width: 600px;
+        height: 700px;
+    }
+    
+    h1 {
+        margin: auto;
+        display: flex;
+        position: relative;
+        font-size: 300%;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        top: 100px;
+        left: 100px;
+    }
+    
+    label {
+        text-align: left;
+        display: flex;
+        position: relative;
+        font-size: x-large;
+        top: 135px;
+        left: 100px;
+    }
+    
+    input {
+        border: 1px solid black;
+        border-radius: 30px;
+        margin: auto;
+        display: flex;
+        position: relative;
+        width: 70%;
+        height: 50px;
+        top: 120px;
+        text-indent: 40px;
+        font-size: 20px;
+    }
+    
+    button {
+        border: 1px solid;
+        border-radius: 30px;
+        position: relative;
+        text-indent: 140px;
+        margin: auto;
+        display: flex;
+        width: 70%;
+        height: 50px;
+        top: 140px;
+        font-size: xx-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        background: linear-gradient(135deg, #fe6053 30%, #ffb152);
+        color: white;
+    }
+    
+     ::placeholder {
+        text-indent: 40px;
+        font-size: medium;
+        height: inherit;
+        margin: auto;
+        position: relative;
+        display: flex;
+    }
+    
+    body {
+        background: linear-gradient(135deg, #fe6053 40%, #ffb353);
+        height: 1000px;
+    }

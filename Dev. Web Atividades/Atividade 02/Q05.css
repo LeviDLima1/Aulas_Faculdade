@@ -1,0 +1,27 @@
+table{
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 95%;
+    height: 98%;
+}
+
+#semana{
+    border: solid 1px black;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+}
+#horario{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+}
+#quadro{
+    text-align: right;
+}
+td{
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 10px;
+} 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Aula 06 - Formulários</h1>
+    <div id="imagem">
+        <img src="imagens/images.jpg" alt="">
+    </div>
+    <div id="formulario">
+        <form>
+            <fieldset>
+                <legend>Cadastro de aluno</legend>
+                <label id="titulos">Nome:</label><br>
+                <input id="ip1" type="text" name="nome"><br>
+                <label id="titulos">Idade:</label><br>
+                <input id="ip1" type="number" name="idade"><br>
+                <label id="titulos">Data de nasc.:</label><br>
+                <input id="ip1" type="date" name="data_nasc"><br>
+                <label id="titulos">Gênero</label><br>
+                <input id="genero" type="radio" name="genero" value="Masculino">
+                <label id="genero2">Masculino</label>
+                <input id="genero" type="radio" name="genero" value="Feminino">
+                <label id="genero2">Feminino</label>
+                <input id="genero" type="radio" name="genero" disabled>
+                <label id="genero2">Gambiarra do Diabo</label><br>
+
+                <label id="email">E-mail:</label><br>
+                <input id="ipemail" type="email" name="email"><br>
+                <label id="titulos">Habilidades:</label><br>
+                <input id="checkbox" type="checkbox" name="html">
+                <label id="codigos">HTML</label>
+                <input id="checkbox" type="checkbox" name="CSS">
+                <label id="codigos">CSS</label>
+                <input id="checkbox" type="checkbox" name="JavaScript">
+                <label id="codigos">JavaScript</label>
+                <input id="checkbox" type="checkbox" name="PHP">
+                <label id="codigos">PHP</label>
+                
+                <label id="cidade">Selecione sua Cidade</label>
+                <select>
+                    <option value="Selecione">Selecione</option>
+                    <option value="Selecione">Fortaleza</option>
+                    <option value="Selecione">Caucaia</option>
+                    <option value="Selecione">Maracanaú</option>
+                    <option value="Selecione">Pacatuba</option>
+                
+                </select>
+                <button>Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

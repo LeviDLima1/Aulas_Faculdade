@@ -1,0 +1,222 @@
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.calculos{
+    width: 98%;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.Soma{
+    width: 15%;
+    height: 400px;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.Sub{
+    width: 15%;
+    height: 400px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.Mult{
+    width: 15%;
+    height: 400px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px;
+}
+
+.Div{
+    width: 15%;
+    height: 400px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px;
+}
+
+.point1{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.point2{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.point3{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.point4{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.label{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input{
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.L, .E, .B{
+    display: flex;
+}
+
+.Soma .L{
+    width: 54%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.Soma .E{
+    width: 60%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.Soma .B{
+    width: 50%;
+    height: 50px;
+
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Soma .B .bnt{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.Sub .L{
+    width: 54%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.Sub .E{
+    width: 60%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.Sub .B{
+    width: 50%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Sub .B .bnt{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.Mult .L{
+    width: 54%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.Mult .E{
+    width: 60%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.Mult .B{
+    width: 50%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Mult .B .bnt{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.Div .L{
+    width: 54%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.Div .E{
+    width: 60%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.Div .B{
+    width: 50%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Div .B .bnt{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(246, 251, 255);
+}
+h1{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: medium;
+    color: cadetblue;
+}
+ul{
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: medium;
+    color: rgb(0, 168, 112);
+}
+ol{
+    font-style: italic;
+    font-weight: bold;
+}

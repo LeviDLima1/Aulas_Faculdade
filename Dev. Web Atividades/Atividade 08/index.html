@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 08 - Introdução ao Js</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <h1 class="titulo">Aula 08 - Introdução ao Js</h1>
+    <section class="calculos">
+
+        <div id="Soma" class="Soma">
+            <h2 class="point1">Some aqui</h2>
+            <section class="L">
+                <label class="label">&ShortDownArrow; </label>
+                <label class="label">&ShortDownArrow; </label>
+            </section>
+
+            <section class="E">
+                <input type="text" id="n1" class="input">
+                <p>+</p>
+                <input type="text" id="n2" class="input">
+            </section>
+
+            <section class="B">
+                <button type="button" class="bnt" onclick="somar()">Calcular</button>
+            </section>
+        </div>
+
+        <div id="Sub" class="Sub">
+            <h2 class="point2">Subtraia aqui</h2>
+
+            <section class="L">
+                <label class="label">&ShortDownArrow; </label>
+                <label class="label">&ShortDownArrow; </label>
+            </section>
+            
+            <section class="E">
+                <input type="text" id="n3" class="input">
+                <p>-</p>
+                <input type="text" id="n4" class="input">
+            </section>
+            
+            <section class="B">
+                <button type="button" class="bnt" onclick="subtrair()">Calcular</button>
+            </section>
+            
+        </div>
+
+        <div id="Mult" class="Mult">
+            <h2 class="point3">Multiplique aqui</h2>
+            <section class="L">
+                <label class="label">&ShortDownArrow; </label>
+                <label class="label">&ShortDownArrow; </label>
+            </section>
+            
+            <section class="E">
+                <input type="text" id="n5" class="input">
+                <p>&#x2715;</p>
+                <input type="text" id="n6" class="input">
+            </section>
+
+            <section class="B">
+                <button type="button" class="bnt" onclick="multiplicar()">Calcular</button>
+            </section>
+            
+        </div>
+
+        <div id="Div" class="Div">
+            <h2 class="point4">Divida aqui</h2>
+            <section class="L">
+                <label class="label">&ShortDownArrow; </label>
+                <label class="label">&ShortDownArrow; </label>
+            </section>
+            
+            <section class="E">
+                <input type="text" id="n7" class="input">
+                <p>&div;</p>
+                <input type="text" id="n8" class="input">
+            </section>
+
+            <section class="B">
+                <button type="button" class="bnt" onclick="dividir()">Calcular</button>
+            </section>
+            
+        </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

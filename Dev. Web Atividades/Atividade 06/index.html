@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aula 06 - Formulários</title>
+</head>
+<body>
+    <h1>Escola Virtual</h1>
+    <h2>Formulário de Pré-Matrícula</h2>
+
+    <div class="formulario">
+        <hr>
+        <form class="form">
+            
+            <section class="FP">
+                <div class="center-FP">
+                    <div class="center-label">
+                        <div class="DP-div">
+                            <p class="DP">Dados Pessoais:</p>
+                        </div>
+                        
+                        <label class="nome-aluno">Nome do Aluno:</label>
+                        <label class="data-nascimento">Nascimento (dd/mm/aaaa):</label>
+                        <label class="nome-mae">Nome da Mãe:</label>
+                        <label class="nome-pai">Nome do Pai:</label>
+                        <label class="Telefone-label">Telefone:</label>
+                        <label class="Email-label">E-Mail:</label>
+                    </div>
+
+                    <div class="center-input">
+                        <input type="text" class="nome-aluno-input">
+                        <div class="data-nascimento-div">
+                            <input type="number" class="dia"> /
+                            <input type="number" class="mes"> /
+                            <input type="number" class="ano">
+                        </div>
+
+                        <input type="text" class="nome-mae-input">
+                        <input type="text" class="nome-pai-input">
+
+                        <div class="TTR-div">
+                                DDD(<input type="tel" class="Telefone" maxlength="3">)    
+                                Tel:<input type="tel" class="Tel" maxlength="11">
+                                Ramal:<input type="tel" class="Ramal">
+                        </div>
+                        <input type="email" class="email-input">
+                    </div>
+                </div>
+            </section>
+            <section class="SP">
+                <div class="center-SP">
+                    
+                    <div class="tipos-serie">
+                        <div class="div-info-matriculas">
+                            <p class="info-matriculas">Informações de Matrícula:</p>
+                        </div>
+                        <div class="div-serie-select">
+                            <label class="SL-serie">Série:</label>
+                        <select name="" id="" class="select">
+                            <option value="pré-escolar">pré-escolar</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="tipos-turno">
+                        <label>Turno:</label> 
+                        <label for="Manha"><input id="Manha" type="radio" name="sim">Manhã</label>
+                        <label for="Tarde"><input id="Tarde" type="radio" name="sim">Tarde</label>
+                    </div>
+                    <div class="tipos-atividade">
+                        <label>Atividades Extracurriculares:</label>
+                        <label for="Informatica"><input id="Informatica" type="checkbox">Informatica</label>
+                        <label for="Musica"><input id="Musica" type="checkbox">Música</label>
+                        <label for="Balet"><input id="Balet" type="checkbox">Balet</label>
+                        <label for="Pintura"><input id="Pintura" type="checkbox">Pintura</label>
+                        <label for="Judo"><input id="Judo" type="checkbox">Judô</label>
+                        <label for="Futebol"><input id="Futebol" type="checkbox">Futebol</label>
+                    </div>
+                </div>
+            </section>
+            <section class="TP">
+                <div class="center-TP">
+                    <button class="enviar-formulario">Enviar Formulário</button>
+                    <button class="limpar-campos">Limpar Campos</button>
+                </div>
+            </section>
+        </form>
+    </div>
+</body>
+</html>

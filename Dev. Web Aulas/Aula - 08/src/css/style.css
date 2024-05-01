@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+}
+#caixa{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;   
+}
+
+#cbnt {
+    width: 120px;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    background: none;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+p{
+    font-size: 30px;
+    margin: 0 auto;
+}
